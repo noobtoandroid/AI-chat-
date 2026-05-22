@@ -1,0 +1,6 @@
+{
+  "name": "Lite Workspace",
+  "description": "A lightweight, intelligent development workspace for single-phone environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
