@@ -26,7 +26,7 @@ class LiteWorkspaceApp extends StatelessWidget {
           onSurface: const Color(0xFF1D1B1E),
         ),
       ),
-  
+
       home: const ScaffoldingPage(),
     );
   }
