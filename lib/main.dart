@@ -26,7 +26,14 @@ class LiteWorkspaceApp extends StatelessWidget {
           onSurface: const Color(0xFF1D1B1E),
         ),
       ),
-
+      builder: (context, child) {
+        return MediaQuery(
+          data: MediaQuery.of(context).copyWith(
+            textScaler: TextScaler.noScaling,
+          ),
+          child: child!,
+        );
+      },
       home: const ScaffoldingPage(),
     );
   }
